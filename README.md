@@ -1,3 +1,6 @@
+# 💫 About Me:
+I’m an engineer and founder at the intersection of DevOps and applied AI. By day I architect CI/CD pipelines at Paramount; by night I build with Claude Code and MCP — designing agentic systems that go beyond chatbots and actually do things. My startup, Campai, uses Claude’s intelligence layer to help small business owners finally understand what’s driving their revenue. I believe MCP and Claude Code represent the next shift in how software gets built, and I’m all-in on that future.
+
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/abhishek-m-98421b26/) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/https://x.com/amaharjan08?s=21&t=s3JGswJG93wSUM91qmRnbw) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:amaharjan08@gmail.com) 
@@ -13,7 +16,7 @@
 ![](https://github-profile-trophy.vercel.app/?username=torpedo88&theme=solarized-dark&no-frame=false&no-bg=true&margin-w=4)
 
 ### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=gruvbox)
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=gruvbox)
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=torpedo88&limit=5&theme=dark&combine_all_yearly_contributions=true)
