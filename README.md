@@ -54,9 +54,6 @@ Also exploring: [Nepali speech-to-text and text-to-speech](https://github.com/to
 | **Product** | <img src="https://skillicons.dev/icons?i=ts,nextjs,react,tailwind,supabase,postgres,py,go" height="36" alt="TypeScript, Next.js, React, Tailwind, Supabase, Postgres, Python, Go" /> |
 | **Platform** | <img src="https://skillicons.dev/icons?i=aws,gcp,cloudflare,vercel,docker,kubernetes,terraform,githubactions" height="36" alt="AWS, Google Cloud, Cloudflare, Vercel, Docker, Kubernetes, Terraform, GitHub Actions" /> |
 
-<div align="center">
-  <br/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=torpedo88&theme=github_dark" height="165" alt="GitHub stats" />
-</div>
+<br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,100:0F172A&height=100&section=footer" width="100%" alt="" />
