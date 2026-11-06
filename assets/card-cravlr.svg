@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="230" viewBox="0 0 600 230" role="img" aria-label="Cravlr: Local restaurant recommendations. I bring the engineering backbone: CI, security reviews and production visibility.">
+<defs>
+  <radialGradient id="glow" cx="1" cy="0" r="1"><stop offset="0" stop-color="#34D399" stop-opacity=".45"/><stop offset=".6" stop-color="#34D399" stop-opacity="0"/></radialGradient>
+  <linearGradient id="beam"><stop offset="0" stop-color="#34D399" stop-opacity="0"/><stop offset="1" stop-color="#34D399"/></linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".16"/><stop offset="1" stop-color="#FFFFFF" stop-opacity=".04"/></linearGradient>
+  <clipPath id="c"><rect width="600" height="230" rx="22"/></clipPath>
+</defs>
+<style>
+  .g{animation:breathe 5s ease-in-out 2.8s infinite}
+  @keyframes breathe{50%{opacity:.45}}
+  @keyframes run{from{stroke-dashoffset:100}to{stroke-dashoffset:0}}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#c)">
+  <rect width="600" height="230" fill="#0C0C14"/>
+  <rect class="g" width="600" height="230" fill="url(#glow)"/>
+</g>
+<rect x=".5" y=".5" width="599" height="229" rx="22" fill="none" stroke="url(#edge)"/>
+<path d="M23,1 H577 A22,22 0 0 1 599,23 V207 A22,22 0 0 1 577,229 H23 A22,22 0 0 1 1,207 V23 A22,22 0 0 1 23,1 Z" pathLength="100" fill="none" stroke="url(#beam)" stroke-width="2"
+    stroke-linecap="round" stroke-dasharray="14 86" style="animation:run 7s linear 3.6s infinite"/>
+<circle cx="38" cy="38" r="5" fill="#34D399"/>
+<text x="52" y="43" font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#34D399" letter-spacing="1.2">CONSUMER APP</text>
+<text x="32" y="88" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="32" font-weight="700" fill="#F8FAFC" letter-spacing="-.5">Cravlr</text>
+<text x="32" y="124" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#94A3B8">Local restaurant recommendations. I bring the</text><text x="32" y="150" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#94A3B8">engineering backbone: CI, security reviews and</text><text x="32" y="176" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#94A3B8">production visibility.</text>
+<text x="32" y="206" font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#64748B">→ in development</text>
+</svg>

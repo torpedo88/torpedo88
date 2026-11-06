@@ -1,6 +1,4 @@
-<a href="https://github.com/torpedo88">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:7C3AED&height=200&section=header&text=Abhishek%20Maharjan&fontColor=FFFFFF&fontSize=48&fontAlignY=38&desc=Engineering%20Leader%20%C2%B7%20Founder%20%C2%B7%20DevOps%20at%20Paramount&descAlignY=58&descSize=16" width="100%" alt="Abhishek Maharjan: engineering leader, founder, DevOps at Paramount" />
-</a>
+<a href="https://github.com/torpedo88"><img src="assets/hero.svg" width="100%" alt="Abhishek Maharjan. Engineering leader, founder, DevOps at Paramount. Mentor to four engineers." /></a>
 
 <div align="center">
 
@@ -14,29 +12,30 @@
 
 I'm an engineering leader with a founder's mindset. My job isn't to write the most code. It's to decide what's worth building, set the bar, and build the systems and teams that ship fast without breaking things.
 
+I've worn every hat in the software lifecycle: QA, developer on the release engineering side, DevOps, architecture and now leadership. That's why designing SDLC processes is my specialty. I know how work gets planned, tested, reviewed, released and run, because I've owned each of those steps myself, and I design processes that teams actually follow.
+
+<img src="assets/journey.svg" width="100%" alt="Career path: QA (quality engineering), Release engineering (developer, build and release), DevOps (CI/CD and platform), Architecture (systems and SDLC design), Leadership (teams, mentoring, founder)" />
+
 By day I work on the delivery platform at **Paramount**, where I build AI-powered CI/CD pipelines and MCP servers that connect AI agents to our engineering systems, so software ships at media scale with AI doing work engineers used to do by hand. By night I lead engineering for products the Nepali community in America runs on: restaurants take orders and dispatch couriers through them, street fairs and concerts sell their tickets through them, and a cultural organization raises its donations through them.
+
+I also mentor four engineers, growing them into the people who own what we build.
 
 My teams are people and AI agents across Claude, OpenAI and Gemini. One plans, one writes the failing tests, fast models implement, and the strongest model reviews anything that touches money, auth or customer data. When the cloud isn't the right answer, models run locally on my own GPU server with Ollama.
 
 ## How I lead
 
-- **Standards over heroics.** Every engineering rule has an owner, a CI gate that fails the build, and a written process for changing it. Roles, approvals and code ownership are defined before the team grows, not after.
-- **Built to hand off.** The rules bind every contributor, human or AI, so the codebase holds without me in every review. That's what lets a founder step back and run the company.
-- **Review is the job.** I review the team's pull requests for security and correctness, and every PR also gets an automated AI review. Risky paths get the strongest reviewer.
-- **Kill bad plans early.** Plans get attacked by a reviewing agent before anyone writes code. One review threw out a plan over 19 confirmed defects, none of which reached code.
-- **Spend like an owner.** Serverless over custom infrastructure, concierge onboarding before self-serve, and when the budget is tight, cut scope, never security.
-- **Security assumes an AI-armed attacker.** Row-level security on every tenant table, no secrets in the browser, nothing trusted from the client.
+<img src="assets/principles.svg" width="100%" alt="Standards over heroics. Built to hand off. Grow the people: I mentor four engineers. Kill bad plans early. Spend like an owner. Assume an AI-armed attacker." />
 
 ## What I'm building
 
-| | |
-|---|---|
-| **Restaurant ordering platform** | Multi-tenant SaaS for independent restaurants: branded storefront, online ordering, Stripe payments, Uber Direct delivery, kitchen printing. Design partners: [Annapurna Oakland](https://annapurnaoakland.com) and [Trisara SF](https://trisarasf.com). |
-| **[TixFix](https://tixfix.ai)** | Ticketing for community promoters, plus one-command hosting on `*.tixfix.ai`. Powered [Hamro Mela](https://hamromela.tixfix.ai), a street fair in Jackson Heights, NYC. |
-| **[Durbar Events](https://durbarevents.com)** | Presale signups and a day-of box office for Bay Area Nepali concerts. |
-| **[Newah Organization of America](https://noancc.org)** | Donations and festival tickets for the NorCal chapter. |
-| **Cravlr** | Local restaurant recommendations. I bring the engineering backbone: CI, security reviews, production visibility. |
-| **Jarvis** | My own always-on AI. A headless GPU server at home running local models through Ollama, no API bill, no data leaving the house. [Setup →](https://github.com/torpedo88/jarvis-box-setup) |
+<p align="center">
+<a href="https://trisarasf.com"><img src="assets/card-restaurant.svg" width="49%" alt="Restaurant ordering platform: multi-tenant SaaS, live at trisarasf.com and annapurnaoakland.com" /></a>
+<a href="https://tixfix.ai"><img src="assets/card-tixfix.svg" width="49%" alt="TixFix: ticketing for community promoters" /></a>
+<a href="https://durbarevents.com"><img src="assets/card-durbar.svg" width="49%" alt="Durbar Events: presale and box office for Bay Area Nepali concerts" /></a>
+<a href="https://noancc.org"><img src="assets/card-newah.svg" width="49%" alt="Newah Organization: donations and festival tickets" /></a>
+<img src="assets/card-cravlr.svg" width="49%" alt="Cravlr: local restaurant recommendations" />
+<a href="https://github.com/torpedo88/jarvis-box-setup"><img src="assets/card-jarvis.svg" width="49%" alt="Jarvis: my own always-on local AI through Ollama" /></a>
+</p>
 
 ## Open source
 
@@ -55,14 +54,13 @@ Also exploring: [Nepali speech-to-text and text-to-speech](https://github.com/to
 
 | | |
 |---|---|
-| **AI** | Claude Code · MCP · Anthropic API · OpenAI · Codex · Gemini · Ollama · AWS Bedrock AgentCore |
+| **AI** | <img src="assets/ai-stack.svg" height="64" alt="Claude Code, MCP, Anthropic API, OpenAI, Codex, Gemini, Ollama, AWS Bedrock AgentCore" /> |
 | **Product** | <img src="https://skillicons.dev/icons?i=ts,nextjs,react,tailwind,supabase,postgres,py,go" height="36" alt="TypeScript, Next.js, React, Tailwind, Supabase, Postgres, Python, Go" /> |
 | **Platform** | <img src="https://skillicons.dev/icons?i=aws,gcp,cloudflare,vercel,docker,kubernetes,terraform,githubactions" height="36" alt="AWS, Google Cloud, Cloudflare, Vercel, Docker, Kubernetes, Terraform, GitHub Actions" /> |
 
 <div align="center">
   <br/>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=torpedo88&theme=github_dark" height="165" alt="GitHub stats" />
-  <img src="https://streak-stats.demolab.com/?user=torpedo88&theme=github-dark-blue&hide_border=true" height="165" alt="GitHub streak" />
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,100:0F172A&height=100&section=footer" width="100%" alt="" />

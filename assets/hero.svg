@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Abhishek Maharjan. Engineering leader, founder, DevOps at Paramount.">
+<defs>
+  <linearGradient id="name" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+    <stop offset="0" stop-color="#F8FAFC"/><stop offset=".45" stop-color="#C4B5FD"/><stop offset=".7" stop-color="#67E8F9"/><stop offset="1" stop-color="#F8FAFC"/>
+    <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1200 0" dur="9s" repeatCount="indefinite"/>
+  </linearGradient>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter>
+  <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#FFFFFF" stroke-opacity=".06"/></pattern>
+  <radialGradient id="fade" cx=".5" cy=".45" r=".65"><stop offset=".2" stop-color="#FFF"/><stop offset="1" stop-color="#000"/></radialGradient>
+  <mask id="m"><rect width="1200" height="360" fill="url(#fade)"/></mask>
+  <clipPath id="clip"><rect width="1200" height="360" rx="28"/></clipPath>
+  <linearGradient id="beam"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#A855F7"/></linearGradient>
+</defs>
+<style>
+  .b1{animation:d1 16s ease-in-out infinite alternate}
+  .b2{animation:d2 19s ease-in-out infinite alternate}
+  .b3{animation:d3 13s ease-in-out infinite alternate}
+  @keyframes d1{to{transform:translate(220px,60px)}}
+  @keyframes d2{to{transform:translate(-260px,-50px)}}
+  @keyframes d3{to{transform:translate(120px,90px)}}
+  .dot{animation:pulse 2s ease-in-out infinite}
+  @keyframes pulse{50%{opacity:.25}}
+  @keyframes run{from{stroke-dashoffset:100}to{stroke-dashoffset:0}}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#clip)">
+  <rect width="1200" height="360" fill="#08080E"/>
+  <g filter="url(#blur)" opacity=".6">
+    <circle class="b1" cx="220" cy="70" r="170" fill="#7C3AED"/>
+    <circle class="b2" cx="960" cy="300" r="180" fill="#0891B2"/>
+    <circle class="b3" cx="640" cy="20" r="120" fill="#C026D3"/>
+  </g>
+  <rect width="1200" height="360" fill="url(#grid)" mask="url(#m)"/>
+
+  <rect x="440" y="62" width="320" height="36" rx="18" fill="#FFFFFF" fill-opacity=".06" stroke="#FFFFFF" stroke-opacity=".14"/>
+  <circle class="dot" cx="466" cy="80" r="5" fill="#34D399"/>
+  <text x="610" y="85" text-anchor="middle" font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#E2E8F0" letter-spacing=".5">Building AI-native companies</text>
+
+  <text x="600" y="178" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="76" font-weight="800" letter-spacing="-2" fill="url(#name)">Abhishek Maharjan</text>
+  <text x="600" y="232" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="500" fill="#CBD5E1">Engineering Leader  ·  Founder  ·  DevOps at Paramount</text>
+  <text x="600" y="276" text-anchor="middle" font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#94A3B8" letter-spacing="1">AI-POWERED CI/CD  ·  MCP  ·  SDLC DESIGN  ·  MENTOR TO 4 ENGINEERS</text>
+</g>
+<rect x=".5" y=".5" width="1199" height="359" rx="28" fill="none" stroke="#FFFFFF" stroke-opacity=".1"/>
+<path d="M29,1 H1171 A28,28 0 0 1 1199,29 V331 A28,28 0 0 1 1171,359 H29 A28,28 0 0 1 1,331 V29 A28,28 0 0 1 29,1 Z" pathLength="100" fill="none" stroke="url(#beam)" stroke-width="2"
+    stroke-linecap="round" stroke-dasharray="14 86" style="animation:run 8s linear 0s infinite"/>
+</svg>
