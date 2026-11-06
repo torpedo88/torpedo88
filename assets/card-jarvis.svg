@@ -22,5 +22,5 @@
 <text x="52" y="43" font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#FB7185" letter-spacing="1.2">LOCAL AI · HOMELAB</text>
 <text x="32" y="88" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="32" font-weight="700" fill="#F8FAFC" letter-spacing="-.5">Jarvis</text>
 <text x="32" y="124" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#94A3B8">A headless GPU server at home that runs local models</text><text x="32" y="150" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#94A3B8">through Ollama, so private data stays on my hardware.</text>
-<text x="32" y="206" font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#64748B">→ github.com/torpedo88/jarvis-box-setup</text>
+<text x="32" y="206" font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#64748B">→ private build</text>
 </svg>

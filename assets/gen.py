@@ -86,7 +86,7 @@ CARDS = [
      "in development"),
     ("jarvis", "#FB7185", "LOCAL AI · HOMELAB", "Jarvis",
      "A headless GPU server at home that runs local models through Ollama, so private data stays on my hardware.",
-     "github.com/torpedo88/jarvis-box-setup"),
+     "private build"),
 ]
 
 

@@ -32,7 +32,7 @@ I build with people and AI agents on Claude, OpenAI and Gemini. One agent plans,
 <a href="https://durbarevents.com"><img src="assets/card-durbar.svg" width="49%" alt="Durbar Events: presale and box office for Bay Area Nepali concerts" /></a>
 <a href="https://noancc.org"><img src="assets/card-newah.svg" width="49%" alt="Newah Organization: donations and festival tickets" /></a>
 <img src="assets/card-cravlr.svg" width="49%" alt="Cravlr: local restaurant recommendations" />
-<a href="https://github.com/torpedo88/jarvis-box-setup"><img src="assets/card-jarvis.svg" width="49%" alt="Jarvis: a home GPU server running local models through Ollama" /></a>
+<img src="assets/card-jarvis.svg" width="49%" alt="Jarvis: a home GPU server running local models through Ollama" />
 </p>
 
 ## Open source
