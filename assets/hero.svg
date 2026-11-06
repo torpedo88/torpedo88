@@ -18,8 +18,6 @@
   @keyframes d1{to{transform:translate(220px,60px)}}
   @keyframes d2{to{transform:translate(-260px,-50px)}}
   @keyframes d3{to{transform:translate(120px,90px)}}
-  .dot{animation:pulse 2s ease-in-out infinite}
-  @keyframes pulse{50%{opacity:.25}}
   @keyframes run{from{stroke-dashoffset:100}to{stroke-dashoffset:0}}
   @media (prefers-reduced-motion: reduce){*{animation:none!important}}
 </style>
@@ -32,13 +30,9 @@
   </g>
   <rect width="1200" height="360" fill="url(#grid)" mask="url(#m)"/>
 
-  <rect x="440" y="62" width="320" height="36" rx="18" fill="#FFFFFF" fill-opacity=".06" stroke="#FFFFFF" stroke-opacity=".14"/>
-  <circle class="dot" cx="466" cy="80" r="5" fill="#34D399"/>
-  <text x="610" y="85" text-anchor="middle" font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#E2E8F0" letter-spacing=".5">Building AI-native companies</text>
-
-  <text x="600" y="178" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="76" font-weight="800" letter-spacing="-2" fill="url(#name)">Abhishek Maharjan</text>
+  <text x="600" y="176" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="76" font-weight="800" letter-spacing="-2" fill="url(#name)">Abhishek Maharjan</text>
   <text x="600" y="232" text-anchor="middle" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="500" fill="#CBD5E1">Engineering Leader  ·  Founder  ·  DevOps at Paramount</text>
-  <text x="600" y="276" text-anchor="middle" font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#94A3B8" letter-spacing="1">AI-POWERED CI/CD  ·  MCP  ·  SDLC DESIGN  ·  MENTOR TO 4 ENGINEERS</text>
+  <text x="600" y="280" text-anchor="middle" font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#94A3B8" letter-spacing="1">AI-POWERED CI/CD  ·  MCP SERVERS  ·  SDLC DESIGN  ·  MENTORING</text>
 </g>
 <rect x=".5" y=".5" width="1199" height="359" rx="28" fill="none" stroke="#FFFFFF" stroke-opacity=".1"/>
 <path d="M29,1 H1171 A28,28 0 0 1 1199,29 V331 A28,28 0 0 1 1171,359 H29 A28,28 0 0 1 1,331 V29 A28,28 0 0 1 29,1 Z" pathLength="100" fill="none" stroke="url(#beam)" stroke-width="2"

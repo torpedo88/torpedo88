@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="230" viewBox="0 0 600 230" role="img" aria-label="Jarvis: My own always-on AI. A headless GPU server at home running local models through Ollama. No API bill, no data leaving the house.">
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="230" viewBox="0 0 600 230" role="img" aria-label="Jarvis: A headless GPU server at home that runs local models through Ollama, so private data stays on my hardware.">
 <defs>
   <radialGradient id="glow" cx="1" cy="0" r="1"><stop offset="0" stop-color="#FB7185" stop-opacity=".45"/><stop offset=".6" stop-color="#FB7185" stop-opacity="0"/></radialGradient>
   <linearGradient id="beam"><stop offset="0" stop-color="#FB7185" stop-opacity="0"/><stop offset="1" stop-color="#FB7185"/></linearGradient>
@@ -21,6 +21,6 @@
 <circle cx="38" cy="38" r="5" fill="#FB7185"/>
 <text x="52" y="43" font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#FB7185" letter-spacing="1.2">LOCAL AI · HOMELAB</text>
 <text x="32" y="88" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="32" font-weight="700" fill="#F8FAFC" letter-spacing="-.5">Jarvis</text>
-<text x="32" y="124" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#94A3B8">My own always-on AI. A headless GPU server at home</text><text x="32" y="150" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#94A3B8">running local models through Ollama. No API bill, no</text><text x="32" y="176" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#94A3B8">data leaving the house.</text>
+<text x="32" y="124" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#94A3B8">A headless GPU server at home that runs local models</text><text x="32" y="150" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#94A3B8">through Ollama, so private data stays on my hardware.</text>
 <text x="32" y="206" font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#64748B">→ github.com/torpedo88/jarvis-box-setup</text>
 </svg>

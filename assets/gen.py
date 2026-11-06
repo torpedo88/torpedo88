@@ -46,8 +46,6 @@ def hero():
   @keyframes d1{{to{{transform:translate(220px,60px)}}}}
   @keyframes d2{{to{{transform:translate(-260px,-50px)}}}}
   @keyframes d3{{to{{transform:translate(120px,90px)}}}}
-  .dot{{animation:pulse 2s ease-in-out infinite}}
-  @keyframes pulse{{50%{{opacity:.25}}}}
   @keyframes run{{from{{stroke-dashoffset:100}}to{{stroke-dashoffset:0}}}}
   {REDUCED}
 </style>
@@ -60,13 +58,9 @@ def hero():
   </g>
   <rect width="1200" height="360" fill="url(#grid)" mask="url(#m)"/>
 
-  <rect x="440" y="62" width="320" height="36" rx="18" fill="#FFFFFF" fill-opacity=".06" stroke="#FFFFFF" stroke-opacity=".14"/>
-  <circle class="dot" cx="466" cy="80" r="5" fill="#34D399"/>
-  <text x="610" y="85" text-anchor="middle" font-family="{MONO}" font-size="14" fill="#E2E8F0" letter-spacing=".5">Building AI-native companies</text>
-
-  <text x="600" y="178" text-anchor="middle" font-family="{SANS}" font-size="76" font-weight="800" letter-spacing="-2" fill="url(#name)">Abhishek Maharjan</text>
+  <text x="600" y="176" text-anchor="middle" font-family="{SANS}" font-size="76" font-weight="800" letter-spacing="-2" fill="url(#name)">Abhishek Maharjan</text>
   <text x="600" y="232" text-anchor="middle" font-family="{SANS}" font-size="24" font-weight="500" fill="#CBD5E1">Engineering Leader  ·  Founder  ·  DevOps at Paramount</text>
-  <text x="600" y="276" text-anchor="middle" font-family="{MONO}" font-size="15" fill="#94A3B8" letter-spacing="1">AI-POWERED CI/CD  ·  MCP  ·  SDLC DESIGN  ·  MENTOR TO 4 ENGINEERS</text>
+  <text x="600" y="280" text-anchor="middle" font-family="{MONO}" font-size="15" fill="#94A3B8" letter-spacing="1">AI-POWERED CI/CD  ·  MCP SERVERS  ·  SDLC DESIGN  ·  MENTORING</text>
 </g>
 <rect x=".5" y=".5" width="1199" height="359" rx="28" fill="none" stroke="#FFFFFF" stroke-opacity=".1"/>
 {beam(rrect_path(1, 1, 1198, 358, 28), "", 8)}
@@ -88,10 +82,10 @@ CARDS = [
      "Donations and festival tickets for the NorCal chapter of the Newah Organization of America.",
      "noancc.org"),
     ("cravlr", "#34D399", "CONSUMER APP", "Cravlr",
-     "Local restaurant recommendations. I bring the engineering backbone: CI, security reviews and production visibility.",
+     "Local restaurant recommendations. I run the CI, security reviews and production monitoring.",
      "in development"),
     ("jarvis", "#FB7185", "LOCAL AI · HOMELAB", "Jarvis",
-     "My own always-on AI. A headless GPU server at home running local models through Ollama. No API bill, no data leaving the house.",
+     "A headless GPU server at home that runs local models through Ollama, so private data stays on my hardware.",
      "github.com/torpedo88/jarvis-box-setup"),
 ]
 
@@ -131,12 +125,12 @@ def card(i, slug, accent, tag, title, desc, foot):
 
 
 PRINCIPLES = [
-    ("Standards over heroics", "Every rule has an owner, a CI gate that fails the build, and a process to change it."),
-    ("Built to hand off", "Rules bind every contributor, human or AI, so the codebase holds without me in every review."),
-    ("Grow the people", "I mentor four engineers and review their PRs for security and correctness, alongside an AI review."),
-    ("Kill bad plans early", "Agents attack plans before code exists. One review threw out a plan over 19 defects."),
-    ("Spend like an owner", "Serverless over custom infra, concierge before self-serve. Cut scope, never security."),
-    ("Assume an AI-armed attacker", "Row-level security on every tenant table, no secrets in the browser, no trusted client."),
+    ("Rules live in CI", "Every standard has an owner and a check that fails the build when it is broken."),
+    ("Same rules for agents", "AI agents pass the same tests and reviews as people, so quality never waits on me."),
+    ("Mentoring", "I review my mentees' PRs for security and correctness, next to an AI reviewer."),
+    ("Plans get reviewed first", "Agents pick apart a plan before anyone writes code. Weak plans get thrown out."),
+    ("Spend carefully", "Serverless before custom infrastructure, hands-on onboarding before self-serve."),
+    ("Secure by default", "Row-level security on every tenant table and no secrets in the browser."),
 ]
 ACCENTS = ["#A855F7", "#22D3EE", "#E879F9", "#FBBF24", "#34D399", "#FB7185"]
 
@@ -147,12 +141,11 @@ def principles():
     for n, ((title, body), accent) in enumerate(zip(PRINCIPLES, ACCENTS)):
         x, y = (n % 3) * (tw + gap), (n // 3) * (th + gap) + 4
         lines = "".join(
-            f'<text x="{x+28}" y="{y+120+k*24}" font-family="{SANS}" font-size="17" fill="#94A3B8">{esc(l)}</text>'
+            f'<text x="{x+28}" y="{y+116+k*24}" font-family="{SANS}" font-size="17" fill="#94A3B8">{esc(l)}</text>'
             for k, l in enumerate(textwrap.wrap(body, 38)[:3]))
         tiles.append(f'''<rect x="{x+.5}" y="{y+.5}" width="{tw-1}" height="{th-1}" rx="20" fill="#0C0C14" stroke="#FFFFFF" stroke-opacity=".09"/>
 <rect class="t" style="animation-delay:{n*0.6:.1f}s" x="{x+28}" y="{y+28}" width="44" height="3" rx="1.5" fill="{accent}"/>
-<text x="{x+28}" y="{y+60}" font-family="{MONO}" font-size="14" fill="{accent}">0{n+1}</text>
-<text x="{x+28}" y="{y+90}" font-family="{SANS}" font-size="23" font-weight="700" fill="#F8FAFC">{esc(title)}</text>
+<text x="{x+28}" y="{y+80}" font-family="{SANS}" font-size="23" font-weight="700" fill="#F8FAFC">{esc(title)}</text>
 {lines}''')
     alt = " ".join(f"{t}: {b}" for t, b in PRINCIPLES)
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{esc(alt)}">

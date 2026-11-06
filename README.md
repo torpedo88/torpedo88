@@ -1,8 +1,6 @@
-<a href="https://github.com/torpedo88"><img src="assets/hero.svg" width="100%" alt="Abhishek Maharjan. Engineering leader, founder, DevOps at Paramount. Mentor to four engineers." /></a>
+<a href="https://github.com/torpedo88"><img src="assets/hero.svg" width="100%" alt="Abhishek Maharjan. Engineering leader, founder, DevOps at Paramount." /></a>
 
 <div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3200&pause=900&color=7C3AED&center=true&vCenter=true&width=620&lines=I+build+teams+and+the+systems+they+ship+on.;AI-powered+CI%2FCD+and+MCP+at+a+media+giant.;Founder+by+night.;My+own+AI+runs+on+a+GPU+in+my+house." alt="I build teams and the systems they ship on." />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhishek-m-98421b26/) [![X](https://img.shields.io/badge/@amaharjan08-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/amaharjan08) [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:amaharjan08@gmail.com)
 
@@ -10,21 +8,21 @@
 
 ## About
 
-I'm an engineering leader with a founder's mindset. My job isn't to write the most code. It's to decide what's worth building, set the bar, and build the systems and teams that ship fast without breaking things.
+I lead engineering teams and build the delivery systems they ship on, and I run my own products on the side.
 
-I've worn every hat in the software lifecycle: QA, developer on the release engineering side, DevOps, architecture and now leadership. That's why designing SDLC processes is my specialty. I know how work gets planned, tested, reviewed, released and run, because I've owned each of those steps myself, and I design processes that teams actually follow.
+I started in QA, moved to release engineering as a developer, then DevOps, then architecture. I've done each of those jobs, so I design SDLC processes around how teams plan, test, review, release and run software in practice.
 
 <img src="assets/journey.svg" width="100%" alt="Career path: QA (quality engineering), Release engineering (developer, build and release), DevOps (CI/CD and platform), Architecture (systems and SDLC design), Leadership (teams, mentoring, founder)" />
 
-By day I work on the delivery platform at **Paramount**, where I build AI-powered CI/CD pipelines and MCP servers that connect AI agents to our engineering systems, so software ships at media scale with AI doing work engineers used to do by hand. By night I lead engineering for products the Nepali community in America runs on: restaurants take orders and dispatch couriers through them, street fairs and concerts sell their tickets through them, and a cultural organization raises its donations through them.
+At **Paramount** I work on the delivery platform. I build AI-powered CI/CD pipelines and MCP servers that let AI agents work with our engineering systems.
 
-I also mentor four engineers, growing them into the people who own what we build.
+Outside work I build software for the Nepali community in the US. Restaurants take orders and dispatch couriers on it, promoters sell tickets to street fairs and concerts on it, and a cultural nonprofit collects donations through it. I also mentor a few engineers.
 
-My teams are people and AI agents across Claude, OpenAI and Gemini. One plans, one writes the failing tests, fast models implement, and the strongest model reviews anything that touches money, auth or customer data. When the cloud isn't the right answer, models run locally on my own GPU server with Ollama.
+I build with people and AI agents on Claude, OpenAI and Gemini. One agent plans, one writes the failing tests, faster models implement, and the strongest model reviews anything that touches money, auth or customer data. Some models run locally on my own GPU server through Ollama.
 
 ## How I lead
 
-<img src="assets/principles.svg" width="100%" alt="Standards over heroics. Built to hand off. Grow the people: I mentor four engineers. Kill bad plans early. Spend like an owner. Assume an AI-armed attacker." />
+<img src="assets/principles.svg" width="100%" alt="Rules live in CI. Same rules for agents. Mentoring. Plans get reviewed first. Spend carefully. Secure by default." />
 
 ## What I'm building
 
@@ -34,12 +32,10 @@ My teams are people and AI agents across Claude, OpenAI and Gemini. One plans, o
 <a href="https://durbarevents.com"><img src="assets/card-durbar.svg" width="49%" alt="Durbar Events: presale and box office for Bay Area Nepali concerts" /></a>
 <a href="https://noancc.org"><img src="assets/card-newah.svg" width="49%" alt="Newah Organization: donations and festival tickets" /></a>
 <img src="assets/card-cravlr.svg" width="49%" alt="Cravlr: local restaurant recommendations" />
-<a href="https://github.com/torpedo88/jarvis-box-setup"><img src="assets/card-jarvis.svg" width="49%" alt="Jarvis: my own always-on local AI through Ollama" /></a>
+<a href="https://github.com/torpedo88/jarvis-box-setup"><img src="assets/card-jarvis.svg" width="49%" alt="Jarvis: a home GPU server running local models through Ollama" /></a>
 </p>
 
 ## Open source
-
-DevOps tools for the failures that still eat engineer hours.
 
 | Project | What it does |
 |---|---|
@@ -48,7 +44,7 @@ DevOps tools for the failures that still eat engineer hours.
 | [deployment-guardrails](https://github.com/torpedo88/deployment-guardrails) | Blocks deploys during incidents or when policies fail. |
 | [cc-statusline](https://github.com/torpedo88/cc-statusline) | Themeable status line for Claude Code, in pure bash. |
 
-Also exploring: [Nepali speech-to-text and text-to-speech](https://github.com/torpedo88/nepali-voice-ai-pilot) for a language voice AI mostly ignores.
+Also exploring: [Nepali speech-to-text and text-to-speech](https://github.com/torpedo88/nepali-voice-ai-pilot).
 
 ## Stack
 
